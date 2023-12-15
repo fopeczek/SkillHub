@@ -1,11 +1,11 @@
 import java
 import random
 
-ModuleConfig = java.jclass("com.example.trainerengine.configs.ModuleConfig")
-ConfigData = java.jclass("com.example.trainerengine.configs.ConfigData")
+ModuleConfig = java.jclass("com.skillhub.configs.ModuleConfig")
+ConfigData = java.jclass("com.skillhub.configs.ConfigData")
 
-Skill = java.jclass("com.example.trainerengine.skills.Skill")
-SkillSet = java.jclass("com.example.trainerengine.skills.SkillSet")
+Skill = java.jclass("com.skillhub.skills.Skill")
+SkillSet = java.jclass("com.skillhub.skills.SkillSet")
 
 
 def get_all_skills() -> dict[str, str]:

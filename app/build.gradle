@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.trainerengine'
+    namespace 'com.skillhub'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.trainerengine"
+        applicationId "com.skillhub"
         minSdk 24
         targetSdk 33
         versionCode 1

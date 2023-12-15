@@ -14,7 +14,7 @@
             android:requestLegacyExternalStorage="true"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/Theme.TrainerEngine">
+            android:theme="@style/Theme.SkillHub">
         <activity
                 android:name=".configs.ConfigEditor"
                 android:exported="false"/>

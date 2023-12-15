@@ -3,8 +3,8 @@ import random
 import java
 from dataclasses import dataclass
 
-ModuleConfig = java.jclass("com.example.trainerengine.configs.ModuleConfig")
-ConfigData = java.jclass("com.example.trainerengine.configs.ConfigData")
+ModuleConfig = java.jclass("com.skillhub.configs.ModuleConfig")
+ConfigData = java.jclass("com.skillhub.configs.ConfigData")
 
 setting_descriptions = {
     "max_number": "Maximum number to be used in questions",

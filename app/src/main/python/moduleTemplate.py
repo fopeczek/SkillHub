@@ -2,8 +2,8 @@ from typing import Optional
 
 import java
 
-ModuleConfig = java.jclass("com.example.trainerengine.configs.ModuleConfig")
-ConfigData = java.jclass("com.example.trainerengine.configs.ConfigData")
+ModuleConfig = java.jclass("com.skillhub.configs.ModuleConfig")
+ConfigData = java.jclass("com.skillhub.configs.ConfigData")
 
 
 def make_task(config: ModuleConfig) -> Optional[tuple]:
