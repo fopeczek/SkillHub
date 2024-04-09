@@ -43,7 +43,7 @@ class SessionList : AppCompatActivity() {
             ranInit = true
 
 //            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE), 2)
-
+// TODO app not starting
             val loadedModules = database.loadModules()
             val toBeLoadedModules = mutableListOf(
                 MathModuleStub().databaseName, PercentModuleStub().databaseName, PythonMathModuleStub().databaseName
